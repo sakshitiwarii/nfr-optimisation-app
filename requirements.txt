@@ -1,4 +1,4 @@
-nltk>=3.4.5
+nltk
 Flask==1.1.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
