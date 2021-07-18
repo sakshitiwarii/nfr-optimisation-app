@@ -351,10 +351,10 @@ def predict(text):
     # model = pickle.load(open('nlp_model.pkl', 'rb'))
     # vectorizer = pickle.load(open('transform.pkl', 'rb'))
     # now you can save it to a file
-    with open('/Users/sakshitiwari/PycharmProjects/pythonProject3/venv/nlp_model.pkl', 'rb') as f:
+    with open('nlp_model.pkl', 'rb') as f:
         model = pickle.load(f)
 
-    with open('/Users/sakshitiwari/PycharmProjects/pythonProject3/venv/transform.pkl', 'rb') as fb:
+    with open('transform.pkl', 'rb') as fb:
         vectorizer = pickle.load(fb)
 
     text = [text]
