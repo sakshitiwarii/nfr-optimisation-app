@@ -77,7 +77,7 @@ parameter_min_samples_leaf = st.sidebar.slider(
     'Minimum number of samples required to be at a leaf node (min_samples_leaf)', 1, 10, 2, 1)
 
 st.sidebar.subheader('General Parameters')
-#parameter_random_state = st.sidebar.slider('Seed number (random_state)', 1, 1000, 42, 1)
+parameter_random_state = st.sidebar.slider('Seed number (random_state)', 1, 1000, 42, 1)
 parameter_criterion = st.sidebar.select_slider('Performance measure (criterion)', options=['classification report'])
 parameter_bootstrap = st.sidebar.select_slider('Bootstrap samples when building trees (bootstrap)',
                                                options=[True, False])
